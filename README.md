@@ -3,6 +3,8 @@
 ![Build](https://github.com/RedDocMD/SAMS/actions/workflows/maven.yml/badge.svg?branch=master)
 [![codecov](https://codecov.io/gh/RedDocMD/SAMS/branch/master/graph/badge.svg?token=VSKEG58TUG)](https://codecov.io/gh/RedDocMD/SAMS)
 
+![Webp net-gifmaker](https://user-images.githubusercontent.com/56274058/114311847-0aebb900-9b0e-11eb-9492-26cb5c7a3efc.gif)
+
 ## Authors
 
 - Group Name: Eternal Blue
@@ -33,6 +35,9 @@ The frontend is written in JavaScript and needs:
 - npm >= 7.7.5
 
 To run the frontend,
+
+https://user-images.githubusercontent.com/56274058/114311348-01f9e800-9b0c-11eb-98cc-a56ce75e2dda.mp4
+
 
 ```shell
 cd frontend
