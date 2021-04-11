@@ -6,7 +6,7 @@
 ## Authors
 
 - Group Name: Eternal Blue
-- Group Number: 13 ( CS29006- Spring-2021)
+- Group Number: 13 (CS29006-Spring-2021)
 - Members:
   - Aaditya Agrawal (19CS10003)
   - Debanjan Saha (19CS30014)
@@ -43,16 +43,10 @@ npm run deploy
 
 Then open `http://localhost:3000` in your browser.
 
-## Test reports
-
-- CoverageReport.pdf: PDF of summary page of cover report
-- TestReport.pdf: PDF of test compliance report
-- CoverageReportHTML: Open `index.html` of this directory to see the coverage full report
-
 ### Generating Test reports
 
 The following operations are to be performed in the `backend` directory.
 
 - Just run the test: `mvn test`
-- Run the tests with coverage: First follow the instructions [here](https://openclover.org/doc/manual/latest/maven--quick-start-guide.html). Then run `mvn clean clover:setup test clover:aggregate clover:clover`.
-- Run the tets and generate test report: `mvn surefire-report:report`.
+- Run the tests with coverage: First follow the instructions [here](https://openclover.org/doc/manual/latest/maven--quick-start-guide.html). Then run `mvn clean clover:setup test clover:aggregate clover:clover`. You can find the report in `backend/target/site/clover/index.html`
+- Run the tests and generate test report: `mvn surefire-report:report`. You can find the report in `backend/target/site/surefire-report.html`
