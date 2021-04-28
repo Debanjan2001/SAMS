@@ -36,9 +36,6 @@ The frontend is written in JavaScript and needs:
 
 To run the frontend,
 
-https://user-images.githubusercontent.com/56274058/114311348-01f9e800-9b0c-11eb-98cc-a56ce75e2dda.mp4
-
-
 ```shell
 cd frontend
 npm install
